@@ -1,0 +1,6 @@
+const midtransClient = require("midtrans-client");
+let core = new midtransClient.CoreApi({
+  isProduction: false,
+  serverKey: "YOUR_KEY",
+  clientKey: "YOUR_KEY",
+});
